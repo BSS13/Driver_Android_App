@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.bustrackingdriver.student_details"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:background="#3d70b2"
+        android:layout_width="match_parent"
+        app:subtitleTextColor="#dfe3e6"
+        app:titleTextColor="#dfe3e6"
+        android:animateLayoutChanges="true"
+        android:id="@+id/toolbar">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo2" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvtop"
+            android:textSize="21sp"
+            android:textColor="#dfe3e6"
+            android:text="Student Details"/>
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imv1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo2"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#3d70b2"
+        android:layout_margin="6sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="Student Name"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:text="Father's Name"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv5"
+            android:text="Mother's Name"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv6"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv7"
+            android:text="Address"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv8"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv9"
+            android:text="Latitude"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv10"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv11"
+            android:text="Longitude"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv12"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

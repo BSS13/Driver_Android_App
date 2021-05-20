@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu tools:context="com.example.hp.bustrackingdriver.DriverHomeActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1">
+
+    <item android:title="View Students"
+        android:icon="@drawable/ic_contacts_black_24dp"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        android:id="@+id/m11"
+        />
+    </group>
+
+    <group android:id="@+id/grp2">
+
+    <item android:title="Mark Attendance"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        android:id="@+id/m22"/>
+
+    <item android:title="Mark School Entry/Exit"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_swap_horiz_black_24dp"
+        android:orderInCategory="100"
+        android:id="@+id/m33"/>
+
+    </group>
+
+    <group android:id="@+id/grp3">
+
+    <item android:title="View Student Location"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_person_pin_black_24dp"
+        android:orderInCategory="100"
+        android:id="@+id/m44"/>
+
+    </group>
+
+    <group android:id="@+id/grp4">
+
+    <item android:title="Breakdown Alert Messages"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_add_alert_black_24dp"
+        android:id="@+id/m55"/>
+
+    </group>
+
+    <group android:id="@+id/grp5">
+
+    <item android:title="Share"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:id="@+id/m66"/>
+    </group>
+
+    <group android:id="@+id/grp6">
+
+    <item android:title="Logout"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:orderInCategory="100"
+        android:id="@+id/m77"
+        />
+    </group>
+
+</menu>

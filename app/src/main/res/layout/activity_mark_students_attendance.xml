@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.bustrackingdriver.mark_students_attendance"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:background="#3d70b2"
+        android:layout_width="match_parent"
+        app:subtitleTextColor="#dfe3e6"
+        app:titleTextColor="#dfe3e6"
+        android:animateLayoutChanges="true"
+        android:id="@+id/toolbar">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo2" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvtop"
+            android:textSize="21sp"
+            android:textColor="#dfe3e6"
+            android:text="Mark Students"/>
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:src="@drawable/calen"
+            android:id="@+id/imvcalen"
+
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:layout_gravity="left"
+            android:textSize="23sp"
+            android:text="45"
+            android:textColor="#3d70b4"
+            android:layout_margin="6sp"/>
+
+
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv1"
+        android:dividerHeight="6.0sp">
+
+    </ListView>
+
+
+
+</LinearLayout>
+

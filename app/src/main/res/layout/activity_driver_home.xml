@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+        android:fitsSystemWindows="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/drawer"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/main_content"
+        >
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/appbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_height="wrap_content"
+            android:background="#3d70b2"
+            android:layout_width="match_parent"
+            app:subtitleTextColor="#dfe3e6"
+            app:titleTextColor="#FFFFFF"
+
+            android:animateLayoutChanges="true"
+            android:id="@+id/toolbar8"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+            <ImageView
+                android:layout_marginLeft="-20dp"
+                android:layout_gravity="start"
+                android:id="@+id/logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/logo2"
+                    />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1"
+                android:textSize="21sp"
+                android:textColor="#dfe3e6"/>
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.hp.bustrackingdriver.DriverHomeActivity"
+            >
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:textColor="#dfe3e6"
+                android:text="Welcome to School Bus Tracking Driver App......Hope You will contibute towards fulfilling our Aim of achieving Student's Safety!!!!!!" />
+
+
+            <TextView
+                android:id="@+id/marque_scrolling_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="16dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#3d70b2"
+                android:text="Welcome to School Bus Tracking Driver App......Hope You will contibute towards fulfilling our Aim of achieving Student's Safety!!!!!!"
+                android:textSize="24sp"
+                android:layout_margin="18sp"/>
+
+
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_margin="10sp"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="3000"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp"
+                android:layout_marginTop="6dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <!-- Navigation View Should be OutSide CoordinatorLayout -->
+
+
+    <!-- But Inside DrawerLayout Which will act a parent layout-->
+
+
+    <!-- To add items in navigationview we can user any menus that are in menu -->
+
+
+    <android.support.design.widget.NavigationView
+        android:fitsSystemWindows="true"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/menufordrawer"
+        android:layout_gravity="start"/>
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
+

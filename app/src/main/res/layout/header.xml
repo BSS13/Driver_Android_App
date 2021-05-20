@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:background="@drawable/abstr"
+    android:layout_height="190dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+
+        android:layout_width="170sp"
+        android:layout_height="160sp"
+        android:id="@+id/imv"
+        android:src="@drawable/driver"
+
+        android:layout_gravity="center|bottom"/>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.hp.bustrackingdriver.launcherActivity"
+    android:orientation="vertical"
+    android:background="#3d70b2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imv1"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@drawable/busdriver6666"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#dfe3e6"
+            android:layout_margin="6sp"
+            android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus Tracker"
+        android:textSize="24sp"
+        android:textColor="#dfe3e6"
+        android:textAlignment="center"/>
+    </LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+
+
+
+
+
